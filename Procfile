@@ -1,1 +1,1 @@
-web: spoty-incubator
+web: go run main.go

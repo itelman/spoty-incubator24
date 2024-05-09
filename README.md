@@ -47,6 +47,13 @@ Users are able to rate albums. The ratings are viewed by users themselves.
 
 ## Usage: how to run
 
+- You can view the app at:
+```console
+https://spotyincubator-xp6jisk0.b4a.run/
+```
+
+Or...
+
 - Download the repository to your local machine.
 - Open the repository via Terminal. Make sure that the Golang compiler is installed.
 - Run the following command:

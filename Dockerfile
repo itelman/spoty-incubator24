@@ -1,19 +1,6 @@
-FROM golang:latest
-
-# Set the working directory to /app
-WORKDIR /app
-
-# Copy the current directory contents into the container at /app
-COPY . /app
-
-# Download and install any required dependencies
-RUN go mod download
-
-# Build the Go app
-RUN go build -o main .
-
-# Expose port 8080 for incoming traffic
+FROM golang:1.20-alpine
+WORKDIR /
+COPY . .
+RUN go build -o spoty-incubator
 EXPOSE 8080
-
-# Define the command to run the app when the container starts
-CMD ["main.go"]
+CMD ["./spoty-incubator"]

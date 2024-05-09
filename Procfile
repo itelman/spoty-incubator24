@@ -1,1 +1,1 @@
-web: bin/spoty-incubator
+web: spoty-incubator

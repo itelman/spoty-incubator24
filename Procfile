@@ -1,1 +1,1 @@
-web: spoty-incubator
+web: ./spoty-incubator

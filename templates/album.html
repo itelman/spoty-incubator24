@@ -124,21 +124,48 @@
   </svg>
 
   <div class="dropdown position-fixed bottom-0 end-0 mb-3 me-3 bd-mode-toggle">
-    <button class="btn btn-bd-primary py-2 dropdown-toggle d-flex align-items-center"
-            id="bd-theme"
-            type="button"
-            aria-expanded="false"
-            data-bs-toggle="dropdown"
-            aria-label="Toggle theme (auto)">
-      <svg class="bi my-1 theme-icon-active" width="1em" height="1em"><use href="#circle-half"></use></svg>
+    <button class="btn btn-bd-primary py-2 dropdown-toggle d-flex align-items-center" id="bd-theme" type="button"
+      aria-expanded="false" data-bs-toggle="dropdown" aria-label="Toggle theme (auto)">
+      <svg class="bi my-1 theme-icon-active" width="1em" height="1em">
+        <use href="#circle-half"></use>
+      </svg>
       <span class="visually-hidden" id="bd-theme-text">Toggle theme</span>
     </button>
     <ul class="dropdown-menu dropdown-menu-end shadow" aria-labelledby="bd-theme-text">
       <li>
-        <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="dark" aria-pressed="false">
-          <svg class="bi me-2 opacity-50" width="1em" height="1em"><use href="#moon-stars-fill"></use></svg>
+        <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="light"
+          aria-pressed="false">
+          <svg class="bi me-2 opacity-50" width="1em" height="1em">
+            <use href="#sun-fill"></use>
+          </svg>
+          Light
+          <svg class="bi ms-auto d-none" width="1em" height="1em">
+            <use href="#check2"></use>
+          </svg>
+        </button>
+      </li>
+      <li>
+        <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="dark"
+          aria-pressed="false">
+          <svg class="bi me-2 opacity-50" width="1em" height="1em">
+            <use href="#moon-stars-fill"></use>
+          </svg>
           Dark
-          <svg class="bi ms-auto d-none" width="1em" height="1em"><use href="#check2"></use></svg>
+          <svg class="bi ms-auto d-none" width="1em" height="1em">
+            <use href="#check2"></use>
+          </svg>
+        </button>
+      </li>
+      <li>
+        <button type="button" class="dropdown-item d-flex align-items-center active" data-bs-theme-value="auto"
+          aria-pressed="true">
+          <svg class="bi me-2 opacity-50" width="1em" height="1em">
+            <use href="#circle-half"></use>
+          </svg>
+          Auto
+          <svg class="bi ms-auto d-none" width="1em" height="1em">
+            <use href="#check2"></use>
+          </svg>
         </button>
       </li>
     </ul>
@@ -150,7 +177,8 @@
         <div class="row">
           <div class="col-sm-8 col-md-7 py-4">
             <h4>About</h4>
-            <p class="text-body-secondary">Implemented by Ilyas Telman, for nFactorial Incubator'24 technical contest.</p>
+            <p class="text-body-secondary">Implemented by Ilyas Telman, for nFactorial Incubator'24 technical contest.
+            </p>
           </div>
           <div class="col-sm-4 offset-md-1 py-4">
             <h4>Contact</h4>
@@ -213,8 +241,8 @@
 
         <div class="carousel-item">
           <a>
-            <img src="https://lastfm.freetls.fastly.net/i/u/300x300/99e7715edfbd4c4519e3483a1779d574.png"
-              alt="Drake" style="width: 33%; height: 175%; object-fit: cover;object-position: 0% 150%;">
+            <img src="https://lastfm.freetls.fastly.net/i/u/300x300/99e7715edfbd4c4519e3483a1779d574.png" alt="Drake"
+              style="width: 33%; height: 175%; object-fit: cover;object-position: 0% 150%;">
             <img src="https://lastfm.freetls.fastly.net/i/u/300x300/8ddd1959a2bef460a5149b3e0cf5e18a.png"
               alt="Kanye West" style="width: 33%; height: 175%; object-fit: cover;object-position: 0% 150%;">
             <img src="https://lastfm.freetls.fastly.net/i/u/300x300/99434582a5da4b9293ecfe754e0729ab.png"

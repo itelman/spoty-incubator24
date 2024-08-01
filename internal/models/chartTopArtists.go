@@ -6,7 +6,7 @@ import (
 	"os"
 )
 
-const API_KEY = os.Getenv("LASTFM_API_KEY")
+var API_KEY = os.Getenv("LASTFM_API_KEY")
 
 type ChartTopArtists struct {
 	ArtistsF ArtistsFull `json:"artists"`

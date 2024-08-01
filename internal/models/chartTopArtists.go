@@ -3,6 +3,7 @@ package models
 import (
 	"encoding/json"
 	"spoty/internal/api"
+	"os"
 )
 
 const API_KEY = os.Getenv("LASTFM_API_KEY")

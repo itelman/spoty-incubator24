@@ -1,1 +1,0 @@
-web: ./spoty-incubator

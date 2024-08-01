@@ -5,7 +5,7 @@ import (
 	"spoty/internal/api"
 )
 
-const API_KEY = "6c8e19bc52595c3544a0e449c8b9e696"
+const API_KEY = os.Getenv("LASTFM_API_KEY")
 
 type ChartTopArtists struct {
 	ArtistsF ArtistsFull `json:"artists"`
